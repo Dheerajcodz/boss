@@ -1013,31 +1013,7 @@ class ResumeApp:
         
         # Profile Section
         st.markdown(f"""
-            <div class="profile-section">
-                <img src="{image_base64 if image_base64 else 'https://avatars.githubusercontent.com/Hunterdii'}" 
-                     alt="Het Patel" 
-                     class="profile-image"
-                     onerror="this.onerror=null; this.src='https://avatars.githubusercontent.com/Hunterdii';">
-                <h2 class="profile-name">Het Patel (Hunterdii)</h2>
-                <p class="profile-title">Full Stack Developer & AI/ML Enthusiast</p>
-                <div class="social-links">
-                    <a href="https://github.com/Hunterdii" class="social-link" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/patel-hetkumar-sandipbhai-8b110525a/" class="social-link" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="mailto:hunterdii9879@gmail.com" class="social-link" target="_blank">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-                <p class="bio-text">
-                    Hello! I'm a passionate Full Stack Developer with expertise in AI and Machine Learning. 
-                    I created Smart Resume AI to revolutionize how job seekers approach their career journey. 
-                    With my background in both software development and AI, I've designed this platform to 
-                    provide intelligent, data-driven insights for resume optimization.
-                </p>
-            </div>
+            
         """, unsafe_allow_html=True)
         
         # Vision Section
@@ -1107,7 +1083,7 @@ class ResumeApp:
         
         # Display role information
         st.markdown(f"""
-        <div style='background-color: #1e1e1e; padding: 20px; border-radius: 10px; margin: 10px 0;'>
+        <div style='background-color: #1e1e1e; padding: 20px; border-radius: 10px; margin: 10px 0;color:white;'>
             <h3>{selected_role}</h3>
             <p>{role_info['description']}</p>
             <h4>Required Skills:</h4>
